@@ -1,0 +1,29 @@
+html, body {
+  background-color: #eee5e9;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.een-album {
+  flex: 0 1 300px;
+  background-color: #fff;
+  margin: .5em;
+  display: flex;
+  flex-direction: column;
+}
+.een-album:empty {
+  background: transparent;
+}
+
+.een-album article {
+  padding: 0 1em;
+}
+
+.een-album img {
+  max-width: 100%;
+}
